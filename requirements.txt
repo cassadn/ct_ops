@@ -8,7 +8,6 @@ asttokens==2.2.1
 attrs==23.1.0
 backcall==0.2.0
 beautifulsoup4==4.12.2
-boto3==1.28.63
 bleach==6.0.0
 blinker==1.6.2
 cachetools==5.3.1
