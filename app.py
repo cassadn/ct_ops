@@ -3,7 +3,7 @@ import pandas as pd
 
 # Function to load Excel file
 def load_excel():
-    file_path = '/Users/a1609186/Library/CloudStorage/OneDrive-BostonScientific/Clinical and Wonder Data Analysis/Clinical Engineering/CT Special Ops/ct_ops_workup_tracker.xlsx'
+    file_path = 'ct_ops_workup_tracker.xlsx'
     excel_data = pd.read_excel(file_path, sheet_name='Sheet1')  # Load data from the specified Excel file
 
     # Remove commas from 'Intelegrid Number' column
